@@ -58,12 +58,7 @@ BEMS is a Windows-based application designed to:
 - Enhanced analytics and dashboard views.
 - Role-based access and authentication.
 
-## 🤝 Team Members
 
-| Name              | ID         | Role              |
-|-------------------|------------|-------------------|
-| Sudhanshu Rajput  | TCA1701046 | Designer, Developer |
-| Vishal Shivayach  | TCA1701015 | Tester, Designer  |
 
 ## 🏁 Conclusion
 
