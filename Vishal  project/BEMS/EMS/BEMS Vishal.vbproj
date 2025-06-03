@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{71F1A24D-CF25-4B56-9DF5-B0E2DE5DEC46}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>BEMS.My.MyApplication</StartupObject>
+    <RootNamespace>BEMS</RootNamespace>
+    <AssemblyName>BEMS</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>BEMS.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>BEMS.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="empty prospect list.Designer.vb">
+      <DependentUpon>empty prospect list.vb</DependentUpon>
+    </Compile>
+    <Compile Include="empty prospect list.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="empty team list.Designer.vb">
+      <DependentUpon>empty team list.vb</DependentUpon>
+    </Compile>
+    <Compile Include="empty team list.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prospect list.Designer.vb">
+      <DependentUpon>Prospect list.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Prospect list.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu1.Designer.vb">
+      <DependentUpon>Menu1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Menu1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prospect Entry form.Designer.vb">
+      <DependentUpon>Prospect Entry form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Prospect Entry form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Team list.Designer.vb">
+      <DependentUpon>Team list.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Team list.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Team Report form.Designer.vb">
+      <DependentUpon>Team Report form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Team Report form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prospect_report_form.Designer.vb">
+      <DependentUpon>Prospect_report_form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Prospect_report_form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Team Entry Form.Designer.vb">
+      <DependentUpon>Team Entry Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Team Entry Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="welcome.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="welcome.Designer.vb">
+      <DependentUpon>welcome.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="empty prospect list.resx">
+      <DependentUpon>empty prospect list.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="empty team list.resx">
+      <DependentUpon>empty team list.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prospect list.resx">
+      <DependentUpon>Prospect list.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu1.resx">
+      <DependentUpon>Menu1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prospect Entry form.resx">
+      <DependentUpon>Prospect Entry form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Team Entry Form.resx">
+      <DependentUpon>Team Entry Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Team list.resx">
+      <DependentUpon>Team list.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Team Report form.resx">
+      <DependentUpon>Team Report form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prospect_report_form.resx">
+      <DependentUpon>Prospect_report_form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="welcome.resx">
+      <DependentUpon>welcome.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
