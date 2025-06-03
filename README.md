@@ -7,13 +7,6 @@ A mini-project developed as part of the BCA (Bachelor of Computer Applications) 
 **Title:** Business Event Management System  
 **Domain:** Database Management System  
 **Course:** Mini Project (Oracle) - BCA551  
-**Submitted By:**
-- Sudhanshu Rajput (TCA1701046)
-- Vishal Shivayach (TCA1701015)
-
-**Guides:**
-- Mr. Ajay Rastogi  
-- Miss Swati Vishnoi
 
 ## 📌 Problem Statement
 
